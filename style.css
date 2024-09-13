@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "abar";
+    src: url(./assets/fonts/Abar-VF.ttf) format('truetype');
+};
+
+@font-face {
+    font-family: "yekan";
+    src: url(./assets/fonts/YekanBakh-VF.ttf) format('truetype');
+};
+
+:root {
+    --primary: #2C7EF8;
+    --primary-hover: #075CD9;
+    --error: #E63946;
+    --success: #90F677;
+    --primary-dark: #3A86F8;
+    --bg-light: #ffffff;
+    --bg-dark: #040810;
+}
+
+
+* {
+    font-family: "yekan";
+}

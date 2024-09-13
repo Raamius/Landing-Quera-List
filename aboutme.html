@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>درباره من</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="sticky top-0 z-10 p-3 items-center bg-white md:px-16">
+        <div class="flex justify-between items-center md:hidden">
+            <button class="text-3xl mx-3 hover:text-zinc-500">&#9776;</button>
+            <span class="font-medium">کوئرا لیست</span>
+            <button class="text-3xl mx-3 invisible">&#9776;</button>
+        </div>
+        <nav class="hidden md:flex md:flex-row md:justify-between items-center">
+            <div class="flex flex-row gap-16">
+                <span class="font-medium">کوئرا لیست</span>
+                <ul id="list" class="flex flex-row gap-10 items-center tracking-tighter">
+                    <li class="text-[#2c7ef8]"><a href="index.html">صفحه اصلی</a></li>
+                    <li><a href="./aboutme.html">درباره ما</a></li>
+                    <li><a href="./contactus.html">ارتباط با ما</a></li>
+                </ul>
+            </div>
+            <div id="buttons" class="hidden md:flex flex-row gap-5 items-center">
+                <button class="px-8 py-3 text-white bg-[#2c7ef8] rounded-lg">ورود به اپلیکیشن</button>
+                <a href=""><img src="./assets/icons/toggle-theme.svg" alt="darkmode_lightmode"
+                        class="border rounded-lg p-3 hover:border-zinc-950"></a>
+            </div>
+        </nav>
+    </header>
+    <div class="grid grid-cols-1 grid-rows-1 gap-4 mx-4 md:grid-cols-2 md:grid-rows-2 my-8 md:m-24">
+        <!-- img in sm -->
+        <div class="flex justify-center md:hidden">
+            <img class="w-96 h-96 object-center object-cover rounded-3xl self-center" src="./assets/images/person.png"
+                alt="">
+        </div>
+
+        <div class="row-span-2 p-4 rounded-3xl text-center flex flex-col gap-4 items-center shadow-sm border border-[#F5F6F8]">
+            <h2 class="font-['abar'] text-2xl font-semibold md:self-start">درباره من</h2>
+            <h1 class="font-['abar'] text-4xl font-bold text-[#575757] mb-6 md:self-start">محمد محمدی</h1>
+            <p class="text-zinc-800 text-balance leading-8 mx-4">کاربران اندروید می‌توانند اپلیکیشن کوئرالیست را از
+                استورهای معتبر اندروید دانلود نمایند. همچنین کاربران سیستم عامل اپل علاوه بر دانلود نرم‌افزار از
+                اپل‌استور می‌توانند از نسخه مبتنی بر وب آن استفاده نمایند. کاربران اندروید می‌توانند اپلیکیشن کوئرالیست
+                را از استورهای معتبر اندروید دانلود نمایند. همچنین کاربران سیستم عامل اپل علاوه بر دانلود نرم‌افزار از
+                اپل‌استور می‌توانند از نسخه مبتنی بر وب آن استفاده نمایند. کاربران اندروید می‌تواننداپلیکیشن کوئرالیست
+                را از استورهای معتبر اندروید دانلود نمایند. همچنین کاربران سیستم عامل اپل علاوه بر دانلود نرم‌افزار از
+                اپل‌استور می‌توانند از نسخه مبتنی بر وب آن استفاده نمایند</p>
+        </div>
+        <!-- img in md -->
+        <div class="md:flex md:justify-center hidden">
+            <img class="w-96 h-96 object-center object-cover rounded-3xl self-center" src="./assets/images/person.png"
+                alt="">
+        </div>
+        <div class="grid grid-cols-2 grid-rows-2 gap-4 mt-8">
+            <div class="flex flex-col p-4 border rounded-3xl text-center gap-1 items-start shadow-sm border-[#F5F6F8] bg-[#f5f5f5]">
+                <h5 class="font-['abar']">1379</h5>
+                <span>سال تولد</span>
+            </div>
+            <div class="flex flex-col p-4 border rounded-3xl text-center gap-1 items-start shadow-sm border-[#F5F6F8] bg-[#f5f5f5]">
+                <h5 class="font-['abar']">تهران</h5>
+                <span>محل زندگی</span>
+            </div>
+            <div class="flex flex-col p-4 border rounded-3xl text-center gap-1 items-start shadow-sm border-[#F5F6F8] bg-[#f5f5f5]">
+                <h5 class="font-['abar']">3.5</h5>
+                <span>سال تجربه کار</span>
+            </div>
+            <div class="flex flex-col p-4 border rounded-3xl text-center gap-1 items-start shadow-sm border-[#F5F6F8] bg-[#f5f5f5]">
+                <h5 class="font-['abar']">+10</h5>
+                <span>مشارکت در پروژه</span>
+            </div>
+        </div>
+    </div>
+    <footer class="py-6 px-6">
+        <div class="flex items-center justify-center mt-10 mb-20">
+            <div class="border-t border-gray-500 w-40 md:w-80"></div>
+            <h2 class="font-['abar'] text-xl text-center mx-5">کوئرا لیست</h2>
+            <div class="border-t border-gray-500 w-40 md:w-80"></div>
+        </div>
+        <div class="md:flex md:flex-row md:justify-between md:items-center md:mx-20">
+            <div class="hidden md:flex md:flex-col md:justify-center md:items-start md:gap-6">
+                <div class="flex gap-4">
+                    <img src="./assets/icons/fax.svg" class="grayscale hover:grayscale-0">
+                    <p class="text-[#444749] mt-2 text-sm font-medium">فکس:۰۲۱۴۴۴۴۵۵۶۶</p>
+                </div>
+                <div class="flex gap-4">
+                    <img src="./assets/icons/call.svg" class="grayscale hover:grayscale-0">
+                    <p class="text-[#444749] mt-2 text-sm font-medium">تلفن پشتیبانی:۰۲۱۴۴۴۴۵۵۶۶</p>
+                </div>
+                <div class="flex gap-4">
+                    <img src="./assets/icons/location-tick.svg" class="grayscale hover:grayscale-0">
+                    <p class="text-[#444749] mt-2 text-sm font-medium">آدرس دفتر مرکزی: پونک - خیابان اشرفی اصفهانی -
+                        خیابان صبحدل - بن بست شب بو</p>
+                </div>
+            </div>
+            <div class="text-center mb-6 flex flex-col gap-4">
+                <p class="font-extrabold text-right text-lg">با ما در ارتباط باش</p>
+                <p class="font-light text-right mb-4">اگه میخوای اولین نفری باشی که از فیچرهای جدید و تخفیفات با خبر
+                    بشی.
+                </p>
+                <div class="flex items-center border border-[#A1A1A1] rounded-2xl overflow-hidden">
+                    <input type="email" placeholder="ایمیل" class="flex-1 px-4 py-2 outline-none text-right" />
+                    <button class="bg-[#2C7EF8] text-white px-4 py-2 m-3 rounded-xl font-extrabold">ارسال</button>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 grid-rows-2 gap-4 max-w-screen-lg mx-auto my-20 md:hidden">
+                <div
+                    class="p-8 rounded-3xl text-center flex flex-col items-center shadow-sm border border-[#F5F6F8] row-span-2">
+                    <div class="w-16 h-16 mb-4 bg-[#F5FBFF] flex items-center justify-center rounded-full">
+                        <img src="./assets/icons/location-tick.svg" alt="loc">
+                    </div>
+                    <p class="text-[#444749] mt-2 text-sm font-medium">آدرس دفتر مرکزی: پونک - خیابان اشرفی اصفهانی -
+                        خیابان صبحدل-
+                        بن
+                        بست شب بو</p>
+                </div>
+                <div class="p-4 rounded-3xl text-center flex gap-4 items-center shadow-sm border border-[#F5F6F8]">
+                    <div class="w-16 h-16 mb-4 bg-[#F5FBFF] flex items-center justify-center rounded-full">
+                        <img src="./assets/icons/call-mobile.svg" alt="call">
+                    </div>
+                    <div class="flex-1 text-right font-light">
+                        <p class="font-semibold">تلفن پشتیبانی</p>
+                        <a href="tel:02144445566">۰۲۱-۴۴۴۴۵۵۶۶</a>
+                    </div>
+                </div>
+                <div class="p-4 rounded-3xl text-center flex gap-4 items-center shadow-sm border border-[#F5F6F8]">
+                    <div class="w-16 h-16 mb-4 bg-[#F5FBFF] flex items-center justify-center rounded-full">
+                        <img src="./assets/icons/fax-mobile.svg" alt="fax">
+                    </div>
+                    <div class="flex-1 text-right font-light">
+                        <p class="font-semibold">فکس</p>
+                        <a href="tel:02144445566">۰۲۱-۴۴۴۴۵۵۶۶</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="my-8 pt-4 text-center">
+            <p class="text-gray-500 text-sm">
+                تمامی حقوق مادی و معنوی این سایت متعلق به کوئرا لیست می‌باشد.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

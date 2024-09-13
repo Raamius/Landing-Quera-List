@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QueraList</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen dark:bg-bg-dark dark:text-bg-light">
+    <header class="sticky top-0 z-10 p-3 items-center bg-white md:px-16">
+        <div class="flex justify-between items-center md:hidden">
+            <button class="text-3xl mx-3 hover:text-zinc-500">&#9776;</button>
+            <span class="font-medium">کوئرا لیست</span>
+            <button class="text-3xl mx-3 invisible">&#9776;</button>
+        </div>
+        <nav class="hidden md:flex md:flex-row md:justify-between items-center">
+            <div class="flex flex-row gap-16">
+                <span class="font-medium">کوئرا لیست</span>
+                <ul id="list" class="flex flex-row gap-10 items-center tracking-tighter">
+                    <li class="text-[#2c7ef8]"><a href="index.html">صفحه اصلی</a></li>
+                    <li><a href="./aboutme.html">درباره ما</a></li>
+                    <li><a href="./contactus.html">ارتباط با ما</a></li>
+                </ul>
+            </div>
+            <div id="buttons" class="hidden md:flex flex-row gap-5 items-center">
+                <button class="px-8 py-3 text-white bg-[#2c7ef8] rounded-lg">ورود به اپلیکیشن</button>
+                <a href=""><img src="./assets/icons/toggle-theme.svg" alt="darkmode_lightmode"
+                        class="border rounded-lg p-3 hover:border-zinc-950"></a>
+            </div>
+        </nav>
+    </header>
+    <main class="">
+        <div id="mainpart1" class="bg-gradient-to-b from-[#e8f2ff] to-75% mb-6">
+            <div class="flex flex-col items-center relative">
+                <div class="flex flex-col items-center gap-6 mt-16 mb-20">
+                    <h2 class="font-['abar'] font-normal text-2xl">تمرکز رو وارد زندگیت کن</h2>
+                    <h1 class="font-['abar'] font-[1000] text-3xl">به سمت اهدافت اوج بگیر</h1>
+                </div>
+                <img src="./assets/icons/line.svg" class="w-48 absolute top-44">
+                <img src="./assets/icons/star.svg" class="w-6 absolute top-14 right-20 md:right-3/4">
+                <img src="./assets/icons/star.svg" class="w-6 absolute top-36 left-8 md:left-3/4">
+                <div class="w-[420px] mb-6">
+                    <p class="text-wrap text-center">زمان در یک روز برای ما محدود است، اما مهمترین کار این است که چگونه
+                        از آن
+                        استفاده می‌کنیم. با
+                        اپلیکیشن
+                        کوئرا لیست، زمان خود را با هدف و برنامه‌ریزی موثر سپری کنید.</p>
+                </div>
+                <div id="mainbuttons" class="flex gap-4">
+                    <button class="h-[50px] w-[200px] text-white bg-[#2c7ef8] rounded-lg">ورود به اپلیکیشن</button>
+                    <button class="h-[50px] w-[200px] text-[#2c7ef8] bg-[#EBF3FE] rounded-lg"><a
+                            href="./aboutme.html">درباره ما</a>
+                    </button>
+                </div>
+                <img id="firstimage" src="./assets/main1pic.png" alt="view of application" class="w-full max-w-xl">
+            </div>
+        </div>
+        <div id="mainpart2" class="flex flex-col items-center gap-6 mb-16">
+            <div class="w-[420px] flex flex-col items-center gap-4 mb-6">
+                <h3 class="font-['abar'] font-medium text-2xl">ویژگی‌های اپلیکیشن کوئرالیست</h3>
+                <div class="w-[420px] mb-6">
+                    <p class="text-wrap text-center">زمان در یک روز برای ما محدود است، اما مهمترین کار این است که چگونه
+                        از آن
+                        استفاده می‌کنیم. با
+                        اپلیکیشن
+                        کوئرا لیست، زمان خود را با هدف و برنامه‌ریزی موثر سپری کنید.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4 p-4 md:grid-cols-4 md:mx-20 xl:mx-80">
+                <div
+                    class="py-4 px-3 rounded-3xl text-center flex flex-col items-center shadow-sm border border-[#F5F6F8]">
+                    <div
+                        class="w-16 h-16 md:w-20 md:h-20 mb-4 bg-[#F5FBFF] flex items-center justify-center rounded-full">
+                        <img src="./assets/icons/brush.svg" alt="">
+                    </div>
+                    <div class="text-lg font-semibold font-['abar']">رابط کاربری جذاب</div>
+                    <p class="text-[#444749] mt-2 text-sm">اگه از سردرگمی و بی برنامگی خسته شدی این اپلیکیشن مخصوص
+                        خودته!</p>
+                </div>
+                <div
+                    class="py-4 px-3 rounded-3xl text-center flex flex-col items-center shadow-sm border border-[#F5F6F8]">
+                    <div
+                        class="w-16 h-16 md:w-20 md:h-20 mb-4 bg-[#F5FBFF] flex items-center justify-center rounded-full">
+                        <img src="./assets/icons/category.svg" alt="">
+                    </div>
+                    <div class="text-lg font-semibold font-['abar']">قابلیت دسته‌بندی کارها</div>
+                    <p class="text-[#444749] mt-2 text-sm">اگه از سردرگمی و بی برنامگی خسته شدی این اپلیکیشن مخصوص
+                        خودته!</p>
+                </div>
+                <div
+                    class="py-4 px-3 rounded-3xl text-center flex flex-col items-center shadow-sm border border-[#F5F6F8]">
+                    <div
+                        class="w-16 h-16 md:w-20 md:h-20 mb-4 bg-[#F5FBFF] flex items-center justify-center rounded-full">
+                        <img src="./assets/icons/location-tick.svg" alt="">
+                    </div>
+                    <div class="text-lg font-semibold font-['abar']">دسترسی آسان</div>
+                    <p class="text-[#444749] mt-2 text-sm">اگه از سردرگمی و بی برنامگی خسته شدی این اپلیکیشن مخصوص
+                        خودته!</p>
+                </div>
+                <div
+                    class="py-4 px-3 rounded-3xl text-center flex flex-col items-center shadow-sm border border-[#F5F6F8]">
+                    <div
+                        class="w-16 h-16 md:w-20 md:h-20 mb-4 bg-[#F5FBFF] flex items-center justify-center rounded-full">
+                        <img src="./assets/icons/user-tag.svg" alt="">
+                    </div>
+                    <div class="text-lg font-semibold font-['abar']">پشتیبانی آنلاین</div>
+                    <p class="text-[#444749] mt-2 text-sm">اگه از سردرگمی و بی برنامگی خسته شدی این اپلیکیشن مخصوص
+                        خودته!</p>
+                </div>
+            </div>
+        </div>
+        <div id="mainpart3" class="flex flex-col items-center gap-6 mb-16">
+            <div class="w-[420px] flex flex-col items-center gap-4 ">
+                <span>اپلیکیشن اندروید و IOS</span>
+                <h3 class="font-['abar'] font-medium text-3xl">دانلود اپلیکیشن </h3>
+            </div>
+            <div>
+                <img src="./assets/images/app-mobile-small-light.png" alt="">
+            </div>
+            <div class="-mb-4 mx-14 mt-4 md:mx-44 lg::mx-96">
+                <p class="text-wrap text-center">کاربران اندروید می‌توانند اپلیکیشن کوئرالیست را از استورهای معتبر
+                    اندروید دانلود نمایند. همچنین
+                    کاربران سیستم عامل اپل علاوه بر دانلود نرم‌افزار از اپل‌استور می‌توانند از نسخه مبتنی بر وب آن
+                    استفاده نمایند.
+                    همچنین کاربران سیستم عامل اپل علاوه بر دانلود نرم‌افزار از اپل‌استور می‌توانند از نسخه مبتنی بر
+                    وب
+                    آن استفاده نمایند.</p>
+            </div>
+            <a href="">
+                <div class="flex gap-4 m-8">
+                    <button class="text-[#2c7ef8]">ورود به اپلیکیشن</button>
+                    <img src="./assets/icons/arrow-right.svg" alt="">
+                </div>
+            </a>
+        </div>
+        <div id="mainpart4" class="flex flex-col items-center gap-6 mb-16">
+            <div class="w-[420px] flex flex-col items-center gap-4 ">
+                <h3 class="font-['abar'] font-medium text-3xl">نظرات کاربران</h3>
+                <span>بیش از یک دهه است که کوئرا لیست به مردم در سراسر جهان کمک می‌کند تا سازماندهی شوند و به اهداف خود
+                    برسند.</span>
+            </div>
+            <div>
+                <div>container</div>
+                <div>roller</div>
+            </div>
+        </div>
+    </main>
+    <footer class="py-6 px-6">
+        <div class="flex items-center justify-center mt-10 mb-20">
+            <div class="border-t border-gray-500 w-40 md:w-80"></div>
+            <h2 class="font-['abar'] text-xl text-center mx-5">کوئرا لیست</h2>
+            <div class="border-t border-gray-500 w-40 md:w-80"></div>
+        </div>
+        <div class="md:flex md:flex-row md:justify-between md:items-center md:mx-20">
+            <div class="hidden md:flex md:flex-col md:justify-center md:items-start md:gap-6">
+                <div class="flex gap-4">
+                    <img src="./assets/icons/fax.svg" class="grayscale hover:grayscale-0">
+                    <p class="text-[#444749] mt-2 text-sm font-medium">فکس:۰۲۱۴۴۴۴۵۵۶۶</p>
+                </div>
+                <div class="flex gap-4">
+                    <img src="./assets/icons/call.svg" class="grayscale hover:grayscale-0">
+                    <p class="text-[#444749] mt-2 text-sm font-medium">تلفن پشتیبانی:۰۲۱۴۴۴۴۵۵۶۶</p>
+                </div>
+                <div class="flex gap-4">
+                    <img src="./assets/icons/location-tick.svg" class="grayscale hover:grayscale-0">
+                    <p class="text-[#444749] mt-2 text-sm font-medium">آدرس دفتر مرکزی: پونک - خیابان اشرفی اصفهانی - خیابان صبحدل - بن بست شب بو</p>
+                </div>
+            </div>
+            <div class="text-center mb-6 flex flex-col gap-4">
+                <p class="font-extrabold text-right text-lg">با ما در ارتباط باش</p>
+                <p class="font-light text-right mb-4">اگه میخوای اولین نفری باشی که از فیچرهای جدید و تخفیفات با خبر
+                    بشی.
+                </p>
+                <div class="flex items-center border border-[#A1A1A1] rounded-2xl overflow-hidden">
+                    <input type="email" placeholder="ایمیل" class="flex-1 px-4 py-2 outline-none text-right" />
+                    <button class="bg-[#2C7EF8] text-white px-4 py-2 m-3 rounded-xl font-extrabold">ارسال</button>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 grid-rows-2 gap-4 max-w-screen-lg mx-auto my-20 md:hidden">
+                <div
+                    class="p-8 rounded-3xl text-center flex flex-col items-center shadow-sm border border-[#F5F6F8] row-span-2">
+                    <div class="w-16 h-16 mb-4 bg-[#F5FBFF] flex items-center justify-center rounded-full">
+                        <img src="./assets/icons/location-tick.svg" alt="loc">
+                    </div>
+                    <p class="text-[#444749] mt-2 text-sm font-medium">آدرس دفتر مرکزی: پونک - خیابان اشرفی اصفهانی -
+                        خیابان صبحدل-
+                        بن
+                        بست شب بو</p>
+                </div>
+                <div class="p-4 rounded-3xl text-center flex gap-4 items-center shadow-sm border border-[#F5F6F8]">
+                    <div class="w-16 h-16 mb-4 bg-[#F5FBFF] flex items-center justify-center rounded-full">
+                        <img src="./assets/icons/call-mobile.svg" alt="call">
+                    </div>
+                    <div class="flex-1 text-right font-light">
+                        <p class="font-semibold">تلفن پشتیبانی</p>
+                        <a href="tel:02144445566">۰۲۱-۴۴۴۴۵۵۶۶</a>
+                    </div>
+                </div>
+                <div class="p-4 rounded-3xl text-center flex gap-4 items-center shadow-sm border border-[#F5F6F8]">
+                    <div class="w-16 h-16 mb-4 bg-[#F5FBFF] flex items-center justify-center rounded-full">
+                        <img src="./assets/icons/fax-mobile.svg" alt="fax">
+                    </div>
+                    <div class="flex-1 text-right font-light">
+                        <p class="font-semibold">فکس</p>
+                        <a href="tel:02144445566">۰۲۱-۴۴۴۴۵۵۶۶</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="my-8 pt-4 text-center">
+            <p class="text-gray-500 text-sm">
+                تمامی حقوق مادی و معنوی این سایت متعلق به کوئرا لیست می‌باشد.
+            </p>
+        </div>
+    </footer>
+</html>
